@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Travel-Bus Ticket Booking</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./img/Global Travel.jpg" alt="logo" width="250" />
+      </div>
+      <!-- ------------------------------------------------------------- -->
+      <div>
+        <button><a href="index.html">return to the main page</a></button>
+      </div>
+      <br />
+      <!-- ------------------------------------------------------------- -->
+      <div>
+        <label for=""></label>
+        <input type="search" placeholder="Search" />
+        <button>Search</button>
+      </div>
+      <hr />
+    </header>
+    <!-- ------------------------------------------------------------- -->
+    <main>
+      <img src="./img/main picture.jpg" alt="" />
+      <!-- ------------------------------------------------------------- -->
+      <h1>GLOBAL TRAVEL</h1>
+      <!-- ------------------------------------------------------------- -->
+      <fieldset>
+        <legend>Book Your Bus Ticket</legend>
+        <br />
+        <form action="#">
+          <label for="departure">Departure City:</label>
+          <input type="text" id="departure" required />
+          <br /><br />
+          <label for="arrival">Arrival City:</label>
+          <input type="text" id="arrival" required />
+          <br /><br />
+          <label for="date">Date of Travel:</label>
+          <input type="date" id="date" required />
+          <br /><br />
+          <label for="number">Number of Passengers:</label>
+          <input type="number" id="number" />
+          <br />
+          <p>Bus Type:</p>
+          <label for="regular">Regular</label>
+          <input type="radio" id="regular" />
+          <label for="sleeper">Sleeper</label>
+          <input type="radio" id="sleeper" />
+          <br />
+          <p>Payment:</p>
+          <label for="credit-card">Credit-Card</label>
+          <input type="radio" id="credit-card" />
+          <label for="paypal">Paypal</label>
+          <input type="radio" id="paypal" />
+          <br /><br />
+          <button>Submit</button>
+        </form>
+      </fieldset>
+    </main>
+    <!-- ------------------------------------------------------------- -->
+    <footer></footer>
+  </body>
+</html>
