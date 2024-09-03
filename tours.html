@@ -197,7 +197,10 @@
                 </section>
             </div>
             <br>
+        <form action="#">    
             <div>
+                <input type="radio" id="d-tours" name="tour-kinds">
+                <label for="d-tours">
                 <section>
                     <form action="#">
                         <fieldset>
@@ -246,7 +249,19 @@
                             </button>
                         </fieldset>
                     </form>
+                    <br><br>
+                    <div>
+                        <form action="#">
+                            <fieldset>
+                                <legend>If you have any suggestions for domestic tours, please write in the box below with details </legend>
+                                <input type="text" >
+                                <button>submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <br><br>
                 </section>
+                </label>
             </div>
             <br>
             <div>
@@ -343,8 +358,9 @@
                         </tbody>
                     </table>
                 </section>
-            </div>
-            <div>
+
+                <input type="radio" id="f-tours" name="tour-kinds">
+                <div for="f-tours">
                 <section>
                     <form action="#">
                         <fieldset>
@@ -395,7 +411,81 @@
                     </form>
                 </section>
             </div>
+            <div>   
+                </label>
+                <section>
+                    <form action="#">
+                        <fieldset>
+                            <legend>
+                                now give us your personal info
+                            </legend>
+                            <label for="f-name">enter your first name: </label>
+                            <input type="text" id="f-name" name="p-info" placeholder="Alex" required>
+                            <br><br>
+                            <label for="l-name">enter ypur last name:  </label>
+                            <input type="text" id="l-name" name="p-info" placeholder="Graham" required>
+                            <br><br>
+                            <label for="age">enter your date of birth: </label>
+                            <input type="date" id="age" name="p-info"  required>
+                            <br><br>
+                            <label for="e-mail">enter your e-mail: </label>
+                            <input type="email" id="e-mail" name="p-info" placeholder="example@gmail.com" required>
+                            <br><br>
+                            <label for="phone-number">enter your phone number</label>
+                            <input type="tel" id="phone-number" name="p-info"  placeholder="+98" required>
+                            <br><br>
+                            <button>
+                                submit
+                            </button>
+                        </fieldset>
+                    </form>
+                </section>
+            </div>
+            <div>
+                <section>
+                    <form action="#">
+                        <fieldset>
+                            <legend>
+                                now choose the way you will pay.
+                            </legend>
+                            <label for="paypal">
+                                <figure>
+                                    <img src="./img/paypal.png" alt="paypal" width="60">
+                                    <figcaption>PayPal</figcaption>
+                                </figure>
+                            </label>
+                            <input type="radio" id="paypal" name="payment" value="paypal">
+                            <label for="mastercard">
+                                <figure>
+                                    <img src="./img/mastercard.png" alt="mastercard" width="60">
+                                    <figcaption>Mastercard</figcaption>
+                                </figure>
+                            </label>
+                            <input type="radio" id="mastercard" name="payment" value="mastercard">
+                            <label for="visa">
+                                <figure>
+                                    <img src="./img/visa.png" alt="visa" width="60">
+                                    <figcaption>Visa</figcaption>
+                                </figure>
+                            </label>
+                            <input type="radio" id="visa" name="payment" value="visa">
+                            <button>
+                                submit
+                            </button>
+                        </fieldset>
+                    </form>
+                </section>
+            </div>
+            <br><br><br>
+            <button>
+                Final Approval
+            </button>
+        </form>  
         </main>
     </div>
+    <hr><hr><hr>
+    <footer>
+        
+    </footer>
 </body>
 </html>
