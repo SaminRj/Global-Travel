@@ -8,7 +8,11 @@
   <body>
     <header>
       <div>
-        <img src="./img/Global Travel.jpg" alt="logo" width="250" />
+        <img
+          src="./img/Global Travel.jpg"
+          alt="Global Travel Logo"
+          width="250"
+        />
       </div>
       <!-- ------------------------------------------------------------- -->
       <div>
@@ -25,117 +29,166 @@
     </header>
     <!-- ------------------------------------------------------------- -->
     <main>
-      <img src="./img/main picture.jpg" alt="" />
       <!-- ------------------------------------------------------------- -->
       <h1>GLOBAL TRAVEL - Bus Ticket Booking</h1>
-      <h2></h2>
-      <!-- ------------------------------------------------------------- -->
-      <h2>Our Bus Services:</h2>
       <p>
-        We offer a range of bus services across the country, catering to various
-        needs and budgets. Below is a list of our top bus operators:
+        Welcome to Global Travel's online bus ticket booking platform. We
+        provide a convenient and user-friendly way for you to book bus tickets
+        for various routes across the country. Whether you're looking for
+        affordable travel options or luxurious bus services, our platform offers
+        a range of operators to suit your needs. Explore available routes, check
+        fares, and secure your seat with just a few clicks. Start your journey
+        with us today!
       </p>
-      <ul>
-        <li>
-          <strong>Iran-Peyma:</strong> Nationwide service with comfortable seating and Wi-Fi.
-        </li>
-        <li><strong>Aria-Safar:</strong> Affordable fares for long-distance travel.</li>
-        <li><strong>Mahan-safar:</strong> Eco-friendly buses with modern amenities.</li>
-        <li>
-          <strong>Hamsafar:</strong> Luxury buses offering spacious seating and onboard
-          entertainment.
-        </li>
-      </ul>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Bus Numbers</th>
-            <th>Bus Operators/th>
-            <th>Route</th>
-            <th>Departure Time</th>
-            <th>Arrival Time</th>
-            <th>Fare</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>101</td>
-            <td>Iran-Peyma</td>
-            <td>Tehran - Shiraz</td>
-            <td>08:00 AM</td>
-            <td>05:00 PM</td>
-            <td>540,000</td>
-          </tr>
-          <tr>
-            <td>102</td>
-            <td>Hamsafar</td>
-            <td>Tehran - gorgan</td>
-            <td>09:00 AM</td>
-            <td>03:00 PM</td>
-            <td>320,000</td>
-          </tr>
-          <tr>
-            <td>103</td>
-            <td>Iran-Peyma</td>
-            <td>Gorgan - Isfahan</td>
-            <td>10:00 PM</td>
-            <td>08:00 AM</td>
-            <td>670,000</td>
-          </tr>
-          <tr>
-            <td>104</td>
-            <td>Aria-Safar</td>
-            <td>Rash - Ahvaz</td>
-            <td>12:00 PM</td>
-            <td>12:00 AM</td>
-            <td>820,000</td>
-          </tr>
-        </tbody>
-      </table>
       <br /><br />
       <!-- ------------------------------------------------------------- -->
-      <fieldset>
+      <section>
+        <h2>Our Bus Services:</h2>
+        <p>
+          We offer a range of bus services across the country, catering to
+          various needs and budgets. Below is a list of our top bus operators:
+        </p>
+        <ul>
+          <li>
+            <strong>Iran-Peyma:</strong> Nationwide service with comfortable
+            seating and Wi-Fi.
+          </li>
+          <li>
+            <strong>Aria-Safar:</strong> Affordable fares for long-distance
+            travel.
+          </li>
+          <li>
+            <strong>Mahan-Safar:</strong> Eco-friendly buses with modern
+            amenities.
+          </li>
+          <li>
+            <strong>Hamsafar:</strong> Luxury buses offering spacious seating
+            and onboard entertainment.
+          </li>
+        </ul>
+      </section>
+      <br /><br />
+      <!-- ------------------------------------------------------------- -->
+      <section>
+        <h2>Available Bus Routes:</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Bus Numbers</th>
+              <th>Bus Operators</th>
+              <th>Route</th>
+              <th>Departure Time</th>
+              <th>Arrival Time</th>
+              <th>Fare</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>101</td>
+              <td>Iran-Peyma</td>
+              <td>Tehran - Shiraz</td>
+              <td>08:00 AM</td>
+              <td>05:00 PM</td>
+              <td>540,000</td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Hamsafar</td>
+              <td>Tehran - gorgan</td>
+              <td>09:00 AM</td>
+              <td>03:00 PM</td>
+              <td>320,000</td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>Iran-Peyma</td>
+              <td>Gorgan - Isfahan</td>
+              <td>10:00 PM</td>
+              <td>08:00 AM</td>
+              <td>670,000</td>
+            </tr>
+            <tr>
+              <td>104</td>
+              <td>Aria-Safar</td>
+              <td>Rash - Ahvaz</td>
+              <td>12:00 PM</td>
+              <td>12:00 AM</td>
+              <td>820,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br /><br />
+      <!-- ------------------------------------------------------------- -->
+      <aside>
+        <h2><mark>Special Offers:</mark></h2>
+        <p>
+          Book now and get <mark>10%</mark> off on all routes! Limited time
+          offer.
+        </p>
+        <p>Offer valid until: september 30, 2024</p>
+        <p><a href="#form">Book Now!</a></p>
+      </aside>
+      <br /><br /><br />
+      <!-- ------------------------------------------------------------- -->
+      <fieldset id="form">
         <legend>Book Your Bus Ticket</legend>
-        <br />
         <form action="#">
-          <label for="departure">Departure City:</label>
-          <input type="text" id="departure" required />
+          <p>
+            Please fill out the form below to book your bus ticket. Ensure all
+            fields are completed before submitting.
+          </p>
+          <fieldset>
+            <legend>Bus Details</legend>
+            <br />
+            <label for="departure">Departure City:</label>
+            <input type="text" id="departure" required />
+            <br /><br />
+            <label for="arrival">Arrival City:</label>
+            <input type="text" id="arrival" required />
+            <br /><br />
+            <label for="date">Date of Travel:</label>
+            <input type="date" id="date" required />
+            <br /><br />
+            <p>Bus Type:</p>
+            <label for="regular">Regular</label>
+            <input type="radio" id="regular" name="bus-type" />
+            <label for="sleeper">Sleeper</label>
+            <input type="radio" id="sleeper" name="bus-type" />
+          </fieldset>
           <br /><br />
-          <label for="arrival">Arrival City:</label>
-          <input type="text" id="arrival" required />
-          <br /><br />
-          <label for="date">Date of Travel:</label>
-          <input type="date" id="date" required />
-          <br /><br />
-          <label for="number">Number of Passengers:</label>
-          <input type="number" id="number" required />
+          <fieldset>
+            <legend>Passenger Information</legend>
+            <br />
+            <label for="number">Number of Passengers:</label>
+            <input type="number" id="number" required />
+            <br /><br />
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required />
+          </fieldset>
           <br />
-          <p>Bus Type:</p>
-          <label for="regular">Regular</label>
-          <input type="radio" id="regular" name="bus-type" />
-          <label for="sleeper">Sleeper</label>
-          <input type="radio" id="sleeper" name="bus-type" />
-          <br />
-          <p>Payment:</p>
-          <label for="credit-card">Credit-Card</label>
-          <input type="radio" id="credit-card" name="payment" />
-          <label for="paypal">Paypal</label>
-          <input type="radio" id="paypal" name="payment" />
+          <fieldset>
+            <legend>Payment</legend>
+            <p>Payment:</p>
+            <label for="credit-card">Credit-Card</label>
+            <input type="radio" id="credit-card" name="payment" />
+            <label for="paypal">Paypal</label>
+            <input type="radio" id="paypal" name="payment" />
+            <br /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+          </fieldset>
           <br /><br />
-          <label for="email">Email:</label>
-          <input type="email" id="email" />
-          <br /><br />
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </fieldset>
     </main>
+    <br /><br />
     <!-- ------------------------------------------------------------- -->
     <footer>
-      <footer>
-        <h3>Contact Us</h3>
-        <p>Email: support@globaltravel.com</p>
-        <p>Phone: +98 021 4890 4000</p>
-      </footer>
+      <h3>Contact Us</h3>
+      <p>Email: support@globaltravel.com</p>
+      <p>Phone: +98 021 4890 4000</p>
     </footer>
   </body>
 </html>
